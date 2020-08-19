@@ -34,7 +34,6 @@ GEM
     nio4r (2.5.2)
     puma (4.3.5)
       nio4r (~> 2.0)
-    rake (12.3.3)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -69,7 +68,6 @@ DEPENDENCIES
   celluloid-io
   dotenv
   puma
-  rake (~> 12.0)
   rspec (~> 3.0)
   slack-ruby-bot
 

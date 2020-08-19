@@ -1,5 +1,3 @@
-require "office/workout/version"
-
 module OfficeWorkout
   class Bot < SlackRubyBot::Bot
     help do
