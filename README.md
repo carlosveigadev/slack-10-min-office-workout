@@ -1,40 +1,91 @@
-# Office::Workout
+# 10 Minutes Office Workout for Slack.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/office/workout`. To experiment with that code, run `bin/console` for an interactive prompt.
+This bot is part of the Capstone projects which are solo projects at the end of the each of the Microverse Main Technical Curriculum sections. This project intend to test the student skills providing challanges that:
 
-TODO: Delete this and the text above, and describe your gem
+- Feels like a real-world-like project, built with business specifications; and
+- Get feedback about the achievement of technical and soft skills gained during the ruby section of the program.
 
-## Installation
+Basically, this bot returns a random link video to a YouTube workout where people who works at home or offices can use to strecthing.
 
-Add this line to your application's Gemfile:
+## Disclaimer
+I am not responsible for any injuries that might be caused by following the exercises on the videos, you should do the exercises at your own risk.
 
-```ruby
-gem 'office-workout'
-```
+## Video Presentation
 
-And then execute:
+TODO: Add video.
 
-    $ bundle install
+## Screenshots
 
-Or install it yourself as:
+TODO: Add screenshots.
 
-    $ gem install office-workout
+## Build With
 
-## Usage
+- Ruby
+- Rubocop
+- RSpec
+- Celluloid-io
+- Dotenv
+- Puma
+- Slack-ruby-bot
 
-TODO: Write usage instructions here
+## Getting Started
 
-## Development
+# Prerequisites
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+Make sure you have a Slack Space to run the bot. 
+To create one, [click here](https://slack.com/get-started#/create).
+After you created a space directory, go to the App Directory of your newly created slack space and search for the Bots app, and then click in "Add to Slack", add the name '10minofficeworkout', and you will have generated a bot. Copy your [API Token](https://api.slack.com/legacy/custom-integrations/legacy-tokens) automatic generated code, that will be used to run the bot.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+# Install
 
-## Contributing
+To test this bot in your locally, clone the repository, navigate to it's directory, and run:
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/office-workout.
+$ bundle install
+$ echo 'SLACK_API_TOKEN=your_copied_token_here' > .env
+$ rackup
 
+- This should install all ruby gems;
+- Generate an .env file containing the API token from the Setup; and 
+- Start a local server where Stackbot will live.
+  
+# How to Use
+
+Once you have loccaly installed the bot you can log in into your slack workspace and invite the bot to your channel, typing `/invite @10minofficeworkout`. 
+
+Typing `@10minofficeworkout help` will return the following message:
+
+10 Minutes Office Workout - Randomly get 10 minutes workouts that can be done in the confort of your office.
+Commands:
+get_workout - Returns a random link of YouTube workout that can be done at your office.
+get_motivation - Returns a random motivational quote.
+Other commands:
+help - Shows help information.
+hi - Says hello.
+For getting description of the command use: help <command>
+For more information see https://github.com/slack-ruby/slack-ruby-bot, please.
+
+## Author
+
+👤 **Carlos Veiga**
+
+- Github: [@wrakc](https://github.com/wrakc)
+- Twitter: [@carlosveig](https://twitter.com/carlosveig)
+- Linkedin: [chveiga](https://linkedin.com/chveiga)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thanks Microverse and The Minskins team.
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The gem is available as open source under the terms of the [MIT License](LICENSE.txt).
