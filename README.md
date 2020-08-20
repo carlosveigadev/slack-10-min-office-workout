@@ -1,11 +1,11 @@
 # 10 Minutes Office Workout for Slack.
 
-This bot is part of the Capstone projects which are solo projects at the end of the each of the Microverse Main Technical Curriculum sections. This project intend to test the student skills providing challanges that:
+This bot is part of the Capstone projects which are solo projects at the end of the each of the Microverse Main Technical Curriculum sections. This project intend to test the student skills providing challenges that:
 
 - Feels like a real-world-like project, built with business specifications; and
 - Get feedback about the achievement of technical and soft skills gained during the ruby section of the program.
 
-Basically, this bot returns a random link video to a YouTube workout where people who works at home or offices can use to strecthing.
+Basically, this bot returns a random link video to a YouTube workout where people who works at home or offices can use to stretching.
 
 ## Disclaimer
 I am not responsible for any injuries that might be caused by following the exercises on the videos, you should do the exercises at your own risk.
@@ -46,11 +46,11 @@ $ rackup
 
 - This should install all ruby gems;
 - Generate an .env file containing the API token from the Setup; and 
-- Start a local server where Stackbot will live.
+- Start a local server where 10minofficeworkout will live.
   
 # How to Use
 
-Once you have loccaly installed the bot you can log in into your slack workspace and invite the bot to your channel, typing `/invite @10minofficeworkout`. 
+Once you have locally installed the bot you can log in into your slack workspace and invite the bot to your channel, typing `/invite @10minofficeworkout`. 
 
 Typing `@10minofficeworkout help` will return the following message:
 
