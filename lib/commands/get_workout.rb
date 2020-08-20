@@ -1,4 +1,3 @@
-
 # module OfficeWorkout
 #   module Commands
 #     class GetWorkout < SlackRubyBot::Commands::Base
