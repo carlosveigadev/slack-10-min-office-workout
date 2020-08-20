@@ -8,7 +8,7 @@ module OfficeWorkout
     class GetWorkout < SlackRubyBot::Commands::Base
       command 'get_workout' do |client, data, _match|
         client.say(channel: data.channel, text: 'I am glad you are here! Enjoy the workout!')
-        client.say(channel: data.channel, text: Workouts.workouts_list[rand(0...Workouts.workouts_list.length)])
+        client.say(channel: data.channel, text: Motivation.motivational_quotes[rand(0...Workouts.motivational_quotes.length)])
       end
     end
   end
