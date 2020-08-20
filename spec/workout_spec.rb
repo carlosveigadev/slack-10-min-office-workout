@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe Office::Workout do
   it 'has a version number' do
     expect(Office::Workout::VERSION).not_to be nil

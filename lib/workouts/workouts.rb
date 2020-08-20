@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# List with workouts.
 module Workouts
   @workouts_list = ['https://www.youtube.com/watch?v=mH3AzNyPalY',
                     'https://www.youtube.com/watch?v=X94NBB5C4d4',
