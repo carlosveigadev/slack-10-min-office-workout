@@ -19,6 +19,12 @@ module OfficeWorkout
         to reserve 10 minutos of their day and follow the random tutorial in order to achieve quality
         of life.'
       end
+
+      command :get_motivation do
+        title 'get_motivation'
+        desc 'Returns a random motivational quote.'
+        long_desc 'Quotes to help people keep with high levels of motivation!'
+      end
     end
   end
 end

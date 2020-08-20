@@ -1,15 +1,15 @@
 # frozen_string_literal: true
 
-require './lib/workouts/workouts.rb'
-require './lib/workouts/motivational_quotes.rb'
+require './lib/data/motivational_quotes.rb'
 
 module OfficeWorkout
   module Commands
-    # Class to define the get_workout command that returns a YoutTube link to a workout.
-    class GetWorkout < SlackRubyBot::Commands::Base
+    # Class to define the get_motivation command that returns a motivational quote.
+    class GetMotivation < SlackRubyBot::Commands::Base
       command 'get_motivation' do |client, data, _match|
         client.say(channel: data.channel, text: 'Come on, check this out:')
-        client.say(channel: data.channel, text: Workouts.workouts_list[rand(0...Workouts.workouts_list.length)])
+        client.say(channel: data.channel, text:
+          Motivation.motivational_quotes[rand(0...Motivation.motivational_quotes.length)])
       end
     end
   end
