@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 module OfficeWorkout
   # Return to the user the bot commands when user types help.
   class Bot < SlackRubyBot::Bot
