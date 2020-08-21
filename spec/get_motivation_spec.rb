@@ -7,6 +7,10 @@ describe OfficeWorkout::Commands::GetMotivation do
     OfficeWorkout::Bot.instance
   end
 
+  it 'returns responds with message' do
+    expect(message:  "#{SlackRubyBot.config.user} get_motivation").to respond_with_slack_message
+  end
+
   it 'returns a Hash' do
     expect(message:  "#{SlackRubyBot.config.user} get_motivation").to be_a Hash
   end
