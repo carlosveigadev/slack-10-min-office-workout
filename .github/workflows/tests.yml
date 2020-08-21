@@ -18,4 +18,4 @@ jobs:
           gem install bundler:2.1.4
       - name: RSpec Report
         run: rspec --force-color --format documentation
-        # run: ./spec/get_workout_spec.rb
+        run: rspec ./spec/get_workout_spec.rb
