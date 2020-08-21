@@ -6,8 +6,12 @@ describe OfficeWorkout::Commands::GetMotivation do
   def app
     OfficeWorkout::Bot.instance
   end
-  
-  it 'responds with a string' do
+
+  it 'returns a Hash' do
     expect(message:  "#{SlackRubyBot.config.user} get_motivation").to be_a Hash
+  end
+
+  it 'does not return a string' do 
+    expect(message:  "#{SlackRubyBot.config.user} get_motivation").not_to be_a String
   end
 end
