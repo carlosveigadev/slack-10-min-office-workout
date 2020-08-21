@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require './lib/data/workouts.rb'
 
 describe '#workouts_list ' do
