@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # rubocop: disable Layout/LineLength
 # List with workouts.
 module Motivation

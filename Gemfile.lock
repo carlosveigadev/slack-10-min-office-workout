@@ -34,6 +34,9 @@ GEM
     nio4r (2.5.2)
     puma (4.3.5)
       nio4r (~> 2.0)
+    rack (2.2.3)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -65,9 +68,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 2.1.4)
   celluloid-io
   dotenv
   puma
+  rack-test
   rspec (~> 3.0)
   slack-ruby-bot
 
