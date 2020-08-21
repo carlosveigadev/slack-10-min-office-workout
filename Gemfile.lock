@@ -68,7 +68,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler
   celluloid-io
   dotenv
   puma
