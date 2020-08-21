@@ -8,6 +8,6 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 gem 'celluloid-io'
 gem 'dotenv'
 gem 'puma'
+gem 'rack-test'
 gem 'rspec', '~> 3.0'
 gem 'slack-ruby-bot'
-gem 'rack-test'

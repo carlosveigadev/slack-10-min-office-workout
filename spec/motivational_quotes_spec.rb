@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './lib/data/motivational_quotes.rb'
 
 describe '#motivational_quotes' do

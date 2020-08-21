@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './lib/data/workouts.rb'
 
 describe '#workouts_list ' do
@@ -8,5 +10,4 @@ describe '#workouts_list ' do
   it 'returns a string that is inside the array' do
     expect(Workouts.workouts_list[-1]).to be_a String
   end
-
 end
