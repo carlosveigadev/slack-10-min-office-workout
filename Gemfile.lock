@@ -1,8 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
-      public_suffix (>= 2.0.2, < 5.0)
     celluloid (0.17.4)
       celluloid-essentials
       celluloid-extras
@@ -24,8 +22,6 @@ GEM
       timers (>= 4.1.1)
     celluloid-supervision (0.20.6)
       timers (>= 4.1.1)
-    crack (0.4.3)
-      safe_yaml (~> 1.0.0)
     diff-lcs (1.4.4)
     dotenv (2.7.6)
     faraday (1.0.1)
@@ -33,11 +29,9 @@ GEM
     faraday_middleware (1.0.0)
       faraday (~> 1.0)
     gli (2.19.2)
-    hashdiff (1.0.1)
     hashie (4.1.0)
     multipart-post (2.1.1)
     nio4r (2.5.2)
-    public_suffix (4.0.5)
     puma (4.3.5)
       nio4r (~> 2.0)
     rack (2.2.3)
@@ -56,7 +50,6 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.3)
-    safe_yaml (1.0.5)
     slack-ruby-bot (0.16.0)
       hashie
       slack-ruby-client (>= 0.14.0)
@@ -67,11 +60,6 @@ GEM
       hashie
       websocket-driver
     timers (4.3.0)
-    vcr (6.0.0)
-    webmock (3.8.3)
-      addressable (>= 2.3.6)
-      crack (>= 0.3.2)
-      hashdiff (>= 0.4.0, < 2.0.0)
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -87,8 +75,6 @@ DEPENDENCIES
   rack-test
   rspec (~> 3.0)
   slack-ruby-bot
-  vcr
-  webmock
 
 BUNDLED WITH
    2.1.4
