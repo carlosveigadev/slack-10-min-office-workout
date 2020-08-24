@@ -34,15 +34,15 @@ TODO: Add screenshots.
 
 Make sure you have a Slack Space to run the bot. 
 To create one, [click here](https://slack.com/get-started#/create).
-After you created a space directory, go to the App Directory of your newly created slack space and search for the Bots app, and then click in "Add to Slack", add the name '10minofficeworkout', and you will have generated a bot. Copy your [API Token](https://api.slack.com/legacy/custom-integrations/legacy-tokens) automatic generated code, that will be used to run the bot.
+After you created a space directory, go to the App Directory of your newly created slack space and search for the Slack Bot app, search for the bot of Slack API, and then click in "Add to Slack", add the name '10minofficeworkout', and you will have generated a bot. Copy your [API Token](https://api.slack.com/legacy/custom-integrations/legacy-tokens) automatic generated code, that will be used to run the bot.
 
 # Install
 
 To test this bot in your locally, clone the repository, navigate to it's directory, and run:
 
-$ bundle install
-$ echo 'SLACK_API_TOKEN=your_copied_token_here' > .env
-$ rackup
+$ bundle install <br>
+$ echo 'SLACK_API_TOKEN=your_copied_token_here' > .env <br>
+$ rackup <br>
 
 - This should install all ruby gems;
 - Generate an .env file containing the API token from the Setup; and 
