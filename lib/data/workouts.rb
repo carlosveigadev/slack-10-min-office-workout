@@ -1,5 +1,7 @@
 # List with workouts.
 module Workouts
+  attr_reader :workouts_list
+
   @workouts_list = ['https://www.youtube.com/watch?v=mH3AzNyPalY',
                     'https://www.youtube.com/watch?v=X94NBB5C4d4',
                     'https://www.youtube.com/watch?v=OzfXqTpYUcg',

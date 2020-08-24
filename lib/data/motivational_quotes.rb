@@ -1,6 +1,8 @@
 # rubocop: disable Layout/LineLength
 # List with workouts.
 module Motivation
+  attr_reader :motivational_quotes
+
   @motivational_quotes = ['The Way To Get Started Is To Quit Talking And Begin Doing. – Walt Disney',
                           'The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty. – Winston Churchill',
                           'Don’t Let Yesterday Take Up Too Much Of Today. – Will Rogers',
@@ -15,6 +17,5 @@ module Motivation
   def self.motivational_quotes
     @motivational_quotes
   end
-  
 end
 # rubocop: enable Layout/LineLength
