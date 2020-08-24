@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ast (2.4.1)
     celluloid (0.17.4)
       celluloid-essentials
       celluloid-extras
@@ -30,13 +31,19 @@ GEM
       faraday (~> 1.0)
     gli (2.19.2)
     hashie (4.1.0)
+    jaro_winkler (1.5.4)
     multipart-post (2.1.1)
     nio4r (2.5.2)
+    parallel (1.19.2)
+    parser (2.7.1.4)
+      ast (~> 2.4.1)
     puma (4.3.5)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
+    rainbow (3.0.0)
+    rexml (3.2.4)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -50,6 +57,15 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.3)
+    rubocop (0.81.0)
+      jaro_winkler (~> 1.5.1)
+      parallel (~> 1.10)
+      parser (>= 2.7.0.1)
+      rainbow (>= 2.2.2, < 4.0)
+      rexml
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    ruby-progressbar (1.10.1)
     slack-ruby-bot (0.16.0)
       hashie
       slack-ruby-client (>= 0.14.0)
@@ -60,6 +76,7 @@ GEM
       hashie
       websocket-driver
     timers (4.3.0)
+    unicode-display_width (1.7.0)
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -74,6 +91,7 @@ DEPENDENCIES
   puma
   rack-test
   rspec (~> 3.0)
+  rubocop (~> 0.81.0)
   slack-ruby-bot
 
 BUNDLED WITH
