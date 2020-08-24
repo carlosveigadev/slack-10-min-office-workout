@@ -15,8 +15,6 @@ module Workouts
                     'https://www.youtube.com/watch?v=CdOfB7X-KBg',
                     'https://www.youtube.com/watch?v=enDXd1jWMLo']
 
-  private
-
   def self.workouts_list
     @workouts_list
   end

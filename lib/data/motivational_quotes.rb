@@ -12,8 +12,6 @@ module Motivation
                           'Entrepreneurs Are Great At Dealing With Uncertainty And Also Very Good At Minimizing Risk. That’s The Classic Entrepreneur.” – Mohnish Pabrai',
                           'We May Encounter Many Defeats But We Must Not Be Defeated. – Maya Angelou']
 
-  private
-
   def self.motivational_quotes
     @motivational_quotes
   end
