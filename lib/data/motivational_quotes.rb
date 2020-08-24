@@ -15,5 +15,6 @@ module Motivation
   def self.motivational_quotes
     @motivational_quotes
   end
+  
 end
 # rubocop: enable Layout/LineLength
