@@ -1,4 +1,4 @@
-require './lib/data/workouts.rb'
+require_relative '../data/workouts.rb'
 
 module OfficeWorkout
   module Commands

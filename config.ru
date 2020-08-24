@@ -4,6 +4,6 @@ require 'bundler'
 require 'dotenv'
 Dotenv.load
 
-require 'office_workout'
+require_relative 'bin/main.rb'
 
 OfficeWorkout::Bot.run

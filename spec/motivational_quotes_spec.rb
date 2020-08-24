@@ -1,4 +1,4 @@
-require './lib/data/motivational_quotes.rb'
+require_relative 'lib/data/motivational_quotes.rb'
 
 describe '#motivational_quotes' do
   it 'returns an array' do

@@ -1,4 +1,4 @@
-require './lib/data/motivational_quotes.rb'
+require_relative '../data/motivational_quotes.rb'
 
 module OfficeWorkout
   module Commands

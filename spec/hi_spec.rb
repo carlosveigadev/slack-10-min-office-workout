@@ -1,5 +1,5 @@
 require 'slack-ruby-bot/rspec'
-require './lib/commands/get_motivation.rb'
+require_relative 'lib/commands/get_motivation.rb'
 
 describe SlackRubyBot::Commands do
   it 'responds with any message' do
