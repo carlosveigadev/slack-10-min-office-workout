@@ -12,11 +12,11 @@ I am not responsible for any injuries that might be caused by following the exer
 
 ## Video Presentation
 
-TODO: Add video.
+[Video Link](https://www.loom.com/share/d1e5391ef5084f389caea352b450dd95)
 
 ## Screenshots
 
-TODO: Add screenshots.
+![Screen Shot](screenshot.png)
 
 ## Build With
 
