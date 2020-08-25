@@ -1,5 +1,5 @@
 require 'slack-ruby-bot/rspec'
-require_relative 'lib/commands/get_motivation.rb'
+require_relative '../lib/commands/get_motivation.rb'
 
 describe OfficeWorkout::Commands::GetMotivation do
   def app

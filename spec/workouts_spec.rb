@@ -1,4 +1,4 @@
-require_relative 'lib/data/workouts.rb'
+require_relative '../lib/data/workouts.rb'
 
 describe '#workouts_list ' do
   it 'returns an array' do
