@@ -5,7 +5,7 @@ This bot is part of the Capstone projects which are solo projects at the end of 
 - Feels like a real-world-like project, built with business specifications; and
 - Get feedback about the achievement of technical and soft skills gained during the ruby section of the program.
 
-Basically, this bot returns a random link video to a YouTube workout where people who works at home or offices can use to stretching.
+This bot randomly provides the user with a YouTube video to work out in home office. 
 
 ## Disclaimer
 I am not responsible for any injuries that might be caused by following the exercises on the videos, you should do the exercises at your own risk.
