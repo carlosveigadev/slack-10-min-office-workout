@@ -68,9 +68,9 @@ For more information see https://github.com/slack-ruby/slack-ruby-bot, please.
 
 👤 **Carlos Veiga**
 
-- Github: [@wrakc](https://github.com/wrakc)
-- Twitter: [@carlosveig](https://twitter.com/carlosveig)
-- Linkedin: [chveiga](https://linkedin.com/chveiga)
+- Github: [@wrakc](https://github.com/carlosveigadev)
+- Twitter: [@carlosveig](https://twitter.com/carlosveigadev)
+- Linkedin: [chveiga](https://linkedin.com/carlosveigadev)
 
 ## 🤝 Contributing
 
